@@ -1,7 +1,7 @@
 // Hospital Management System
 // Dhruv Mansukh Jeshani - 225768
 
-// ================= ABSTRACT CLASS 1 =================
+//  ABSTRACT CLASS 1 
 abstract class Person {
 
     // attribute
@@ -13,7 +13,7 @@ abstract class Person {
     }
 }
 
-// ================= ABSTRACT CLASS 2 =================
+//  ABSTRACT CLASS 2 
 abstract class Staff extends Person {
 
     // constructor using super
@@ -25,17 +25,17 @@ abstract class Staff extends Person {
     abstract void work();
 }
 
-// ================= INTERFACE 1 =================
+//  INTERFACE 1 
 interface Billable {
     void showBill();
 }
 
-// ================= INTERFACE 2 =================
+//  INTERFACE 2 
 interface Schedulable {
     void schedule();
 }
 
-// ================= CONCRETE CLASS 1 =================
+//  CONCRETE CLASS 1 
 class Patient extends Person implements Schedulable {
 
     // constructor
@@ -50,7 +50,7 @@ class Patient extends Person implements Schedulable {
     }
 }
 
-// ================= CONCRETE CLASS 2 =================
+//  CONCRETE CLASS 2 
 class Doctor extends Staff {
 
     // constructor
@@ -64,7 +64,7 @@ class Doctor extends Staff {
     }
 }
 
-// ================= CONCRETE CLASS 3 =================
+//  CONCRETE CLASS 3 
 class Billing implements Billable {
 
     // attributes
@@ -84,7 +84,7 @@ class Billing implements Billable {
     }
 }
 
-// ================= MAIN CLASS =================
+//  MAIN CLASS 
 public class HospitalMain {
 
     public static void main(String[] args) {
