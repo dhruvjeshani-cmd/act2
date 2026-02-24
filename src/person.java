@@ -1,4 +1,4 @@
-// ================= ABSTRACT CLASS 1 =================
+//  ABSTRACT CLASS 1 
 abstract class Person {
 
     // attribute

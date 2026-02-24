@@ -1,4 +1,4 @@
-// ================= INTERFACE 1 =================
+//  INTERFACE 1 
 interface Billable {
     void showBill();
 }

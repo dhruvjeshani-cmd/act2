@@ -1,4 +1,4 @@
-// ================= INTERFACE 2 =================
+//  INTERFACE 2 
 interface Schedulable {
     void schedule();
 }

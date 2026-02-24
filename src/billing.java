@@ -1,4 +1,4 @@
-// ================= CONCRETE CLASS 3 =================
+//  CONCRETE CLASS 3 
 class Billing implements Billable {
 
     // attributes

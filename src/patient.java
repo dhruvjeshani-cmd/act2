@@ -1,4 +1,4 @@
-// ================= CONCRETE CLASS 1 =================
+//  CONCRETE CLASS 1 
 class Patient extends Person implements Schedulable {
 
     // constructor

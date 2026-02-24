@@ -1,4 +1,4 @@
-// ================= ABSTRACT CLASS 2 =================
+//  ABSTRACT CLASS 2 
 abstract class Staff extends Person {
 
     // constructor using super

@@ -1,4 +1,4 @@
-// ================= CONCRETE CLASS 2 =================
+//  CONCRETE CLASS 2 
 class Doctor extends Staff {
 
     // constructor
