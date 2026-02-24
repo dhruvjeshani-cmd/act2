@@ -11,9 +11,9 @@ class Billing implements Billable {
         int total = consultationFee + medicineFee;
 
         System.out.println("----- BILL DETAILS -----");
-        System.out.println("Consultation Fee: " + consultationFee);
-        System.out.println("Medicine Fee: " + medicineFee);
-        System.out.println("Total Amount: " + total);
+        System.out.println("Consultation Fee:  $" + consultationFee);
+        System.out.println("Medicine Fee:  $" + medicineFee);
+        System.out.println("Total Amount:  $" + total);
         System.out.println("------------------------");
     }
 }
