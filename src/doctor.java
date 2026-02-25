@@ -8,6 +8,6 @@ class Doctor extends Staff {
 
     // overriding abstract method
     void work() {
-        System.out.println("Doctor " + name + " is treating the patient");
+        System.out.println("" + name + " is treating the patient");
     }
 }

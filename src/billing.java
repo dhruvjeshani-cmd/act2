@@ -15,5 +15,6 @@ class Billing implements Billable {
         System.out.println("Medicine Fee:  $" + medicineFee);
         System.out.println("Total Amount:  $" + total);
         System.out.println("------------------------");
+        System.out.println("*terms & conditions apply*");
     }
 }
