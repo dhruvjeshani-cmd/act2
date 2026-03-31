@@ -1,15 +1,15 @@
-// ================= CONCRETE CLASS 3 =================
 class Billing implements Billable {
+    int consultationFee;
+    int medicineFee;
 
-    // attributes
-    int consultationFee = 2000;
-    int medicineFee = 1500;
+    Billing(int consultationFee, int medicineFee) {
+        this.consultationFee = consultationFee;
+        this.medicineFee = medicineFee;
+    }
 
-    // implementing interface method
+    @Override
     public void showBill() {
-
         int total = consultationFee + medicineFee;
-
         System.out.println("----- BILL DETAILS -----");
         System.out.println("Consultation Fee: " + consultationFee);
         System.out.println("Medicine Fee: " + medicineFee);

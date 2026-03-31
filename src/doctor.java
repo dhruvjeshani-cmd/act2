@@ -1,23 +1,10 @@
 class Doctor extends Staff {
-
-
-
-    // constructor
-
     Doctor(String name) {
-
         super(name);
-
     }
 
-
-
-    // overriding abstract method
-
+    @Override
     void work() {
-
         System.out.println("Doctor " + name + " is treating the patient");
-
     }
-
 }
